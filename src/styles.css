@@ -5,31 +5,40 @@
     list-style-type: none;
 }
 
-.google-header {
-    background-color: aqua;
-}
-
 .google-navbar {
-    background-color: green;
     width: 100%;
     display: flex;
+    font-size: small;
+    margin-top: 20px;
 }
 
 .nav-link {
     padding: 5px;
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 #left-nav {
-    background-color: pink;
-    width: 200px;
     display: flex;
 }
 
 #right-nav {
-    background-color: red;
-    width: 220px;
     display: flex;
     position: absolute;
     right: 0;
 }
 
+.google-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.google-logo {
+    padding: 20px;
+    align-self: center;
+}
