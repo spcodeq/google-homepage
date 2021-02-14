@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.google-header {
+    background-color: aqua;
+}
+
+.google-navbar {
+    background-color: green;
+    width: 100%;
+    display: flex;
+}
+
+.nav-link {
+    padding: 5px;
+}
+
+#left-nav {
+    background-color: pink;
+    width: 200px;
+    display: flex;
+}
+
+#right-nav {
+    background-color: red;
+    width: 220px;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
