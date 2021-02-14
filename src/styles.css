@@ -33,6 +33,7 @@
 
 .google-main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 300px;
@@ -41,4 +42,21 @@
 .google-logo {
     padding: 20px;
     align-self: center;
+}
+
+.google-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-search {
+    background: url(../src/images/baseline_search_black_18dp.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    line-height: 2;
 }
